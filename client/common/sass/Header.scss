@@ -7,22 +7,5 @@
   width: 100%;
   background-color: #ffffff;
   z-index: 2;
-
-  .rightContent {
-    bottom: 0px;
-    float: right;
-  }
-  .userInfo {
-    line-height: $headerHeight;
-    font-size: 14px;
-    width: 100px;
-    float: right;
-  }
-  .avatar {
-    width: 60px;
-  }
-  .username {
-    float: right;
-  }
 }
 

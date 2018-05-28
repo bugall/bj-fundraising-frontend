@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import styles from '../sass/Main'
+import {
+  Grid
+} from 'react-bootstrap'
 
 class Main extends Component {
     constructor() {
@@ -8,11 +11,10 @@ class Main extends Component {
 
     render() {
         const {children} = this.props
-
         return (
-            <div className={styles.main}>
-                {children}
-            </div>
+          <Grid>
+            {children}
+          </Grid>
         )
     }
 }

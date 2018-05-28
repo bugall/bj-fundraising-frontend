@@ -1,4 +1,66 @@
 .main {
-  min-height: 500px;
-  background: #ffffff;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.1);
+  border-bottom: 1px solid #e2e2e2;
+
+  .search {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+  .userInfo {
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    background: linear-gradient(180deg,#6a82fb,#fc5c7d);
+    color: #fff;
+    margin-top: 20px;
+
+    .avatar {
+      $height: 50px;
+      width: $height;
+      height: $height;
+      border-radius: $height / 2;
+      background-color: rgb(245, 106, 0);
+      vertical-align: middle;
+      font-size: 25px;
+      text-align: center;
+      line-height: $height;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .name {
+      margin: auto;
+      text-align: center;
+    }
+  }
+
+  .juankuan {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 20px;
+
+    .qrcode {
+      width: 100%;
+      height: 220px;
+    }
+
+    .thumbnail {
+      margin-bottom: 0px;
+    }
+    img {
+      background-size: 240px 240px;
+      width: 240px ;
+      height: 240px; 
+      background-image: url('../img/qrcode.png');
+    }
+    a, div{
+      border-radius: 0 !important;
+    }
+  }
 }
